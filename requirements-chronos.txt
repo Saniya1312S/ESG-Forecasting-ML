@@ -1,0 +1,5 @@
+-r requirements.txt
+torch>=2.0
+transformers>=4.48,<5
+accelerate>=0.32
+chronos-forecasting>=1.5.2

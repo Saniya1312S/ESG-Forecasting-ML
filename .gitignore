@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.txt
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Model artifacts
+*.h5
+*.keras
+*.pt
+*.pth
+models/*.pkl
+models/*.joblib
+
+# Runtime outputs
+outputs/predictions/
+outputs/logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Secrets
+secrets.toml
