@@ -282,21 +282,7 @@ The Chronos experiment uses a sliding window and the last training window to for
 
 ---
 
-## 8. Additional notebook benchmark
 
-The supplied GRU+LSTM notebook reports the following aggregate output for its 495-company run:
-
-```text
-Average MSE:          1071.3619
-Average MAE:            29.8447
-Average Error Rate:    162.8933%
-Average MAPE:          162.8933%
-Average Theil's U:       0.4058
-Average Bias:           29.2801
-Average RMSE:           32.7317
-```
-
-The original notebook also reports a very large average WQL value. Such values should be interpreted cautiously because WQL was implemented in the research code as MSE divided by the variance of the actual test series.
 
 ---
 
@@ -467,99 +453,8 @@ The dashboard provides:
 
 ---
 
-## 13. GitHub presentation strategy
 
-The repository is intentionally designed to communicate several skill sets at once:
-
-### Data Analyst
-
-```text
-Data ingestion
-Data cleaning
-EDA
-KPI design
-Metric interpretation
-Interactive dashboard
-```
-
-### Research Analyst
-
-```text
-Research question
-Experimental design
-Benchmarking
-Literature/research framing
-Model comparison
-Limitations
-Reproducibility
-```
-
-### Data Scientist / ML
-
-```text
-Time-series forecasting
-Feature engineering
-Train/test methodology
-LSTM/GRU
-Residual modeling
-Foundation models
-Model evaluation
-```
-
-### Finance / Sustainable Finance
-
-```text
-ESG risk
-Company-level trajectories
-Financial returns
-Portfolio context
-Sustainability-aware analytics
-```
-
-### AI
-
-```text
-Transformer time-series foundation model
-Chronos
-Future multimodal extension
-LLM-ready representation design
-```
-
----
-
-## 14. Recommended GitHub screenshots
-
-Add these screenshots to the repository after running the dashboard:
-
-```text
-docs/images/
-├── dashboard_overview.png
-├── model_comparison.png
-├── company_forecast.png
-└── pipeline_architecture.png
-```
-
-The README can then display them under the **Dashboard Preview** section.
-
----
-
-## 15. Dashboard Preview
-
-After generating your screenshots, add:
-
-```markdown
-## Dashboard Preview
-
-![Dashboard Overview](docs/images/dashboard_overview.png)
-
-![Model Comparison](docs/images/model_comparison.png)
-```
-
-Do not add fake screenshots or fabricated performance claims.
-
----
-
-## 16. Research limitations
+## 13. Research limitations
 
 1. ESG ratings are provider-specific and may use different methodologies.
 2. A current S&P 500 constituent scrape introduces survivorship bias if historical membership is not reconstructed.
@@ -573,7 +468,7 @@ Do not add fake screenshots or fabricated performance claims.
 
 ---
 
-## 17. Future research
+## 14. Future research
 
 The strongest next version is a multimodal ESG intelligence system:
 
@@ -624,21 +519,6 @@ Possible research extensions:
 
 ---
 
-## 18. Citation / attribution
 
-If you build on this repository, cite the original research work and the actual ESG-data provider used in your experiment.
 
-This repository also retains the original research notebooks supplied for this project under:
-
-```text
-notebooks/research/
-```
-
----
-
-## 19. Project status
-
-**Research prototype → portfolio-ready reproducibility layer**
-
-The historical experiments are preserved. The production-style pipeline is designed to be rerun with a properly sourced ESG dataset.
 
