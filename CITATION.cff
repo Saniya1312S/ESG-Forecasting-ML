@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "ESG Forecasting Using ML & Time-Series AI"
-message: "If you use this repository, please cite the project and the original ESG data provider used."
+
 type: software
 authors:
   - family-names: Saratkar
