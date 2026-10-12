@@ -1,39 +1,20 @@
-# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-.env
-
-# Jupyter
+*.egg-info/
+.pytest_cache/
 .ipynb_checkpoints/
+.env
+.DS_Store
+Thumbs.db
 
-# Data
-data/raw/*.csv
-data/raw/*.xlsx
-data/raw/*.txt
-data/processed/*.csv
-data/processed/*.xlsx
+# Real ESG data is licensed / not redistributable: keep it local
+data/raw/*
+!data/raw/.gitkeep
 
 # Model artifacts
 *.h5
 *.keras
 *.pt
 *.pth
-models/*.pkl
-models/*.joblib
-
-# Runtime outputs
-outputs/predictions/
-outputs/logs/
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Streamlit
-.streamlit/
-
-# Secrets
-secrets.toml

@@ -1,0 +1,6 @@
+model,window,MSE,MAE,RMSE,Error_Rate_pct,MAPE_pct,WQL,source
+"ARIMA(0,1,0)",7 and 8,149.1784,5.7951,12.2139,31.2367,31.2367,43.2056,Table_and_Report_original.docx
+"ARIMA(0,1,0) + LSTM",8,165.4703,7.3938,12.8635,39.4442,39.4442,1.28467e+27,Table_and_Report_original.docx
+"ARIMA(0,1,0) + LSTM",7,168.1778,7.4914,12.9683,40.1409,40.1409,1.48025e+27,Table_and_Report_original.docx
+Chronos (t5-small),8,294.9557,9.1147,17.1743,48.3529,48.3529,149.3103,Table_and_Report_original.docx
+Chronos (t5-small),7,695.6044,9.7017,26.3743,50.8807,50.8807,495.4225,Table_and_Report_original.docx

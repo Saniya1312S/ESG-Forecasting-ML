@@ -1,0 +1,7 @@
+notebook,cell,model,window,companies_note,MSE,MAE,RMSE,Error_Rate_pct,MAPE_pct,WQL,Theils_U,Pearson,Bias
+01_arima_lstm_hybrid_original,1,ARIMA+LSTM,8,"495 in loop (skips <20 obs)",164.512,7.3564,,,39.6394,,0.1733,,1.8833
+02_gru_lstm_original,1,GRU+LSTM,8,"495 in loop (skips <20 obs)",1071.3619,29.8447,32.7317,162.8933,162.8933,7.65206878072668e+26,0.4058,,29.2801
+03_chronos_original,3,Chronos t5-small,8,"411 with metrics",,,,,,,0.3206,-0.0067,11.2922
+03_chronos_original,5,Chronos t5-small,8,"411 processed / 84 skipped",734.4585,9.3376,14.9119,48.9485,48.9485,423.7047,0.2411,0.0115,7.0242
+03_chronos_original,7,Chronos t5-small,8,"same skip rule (<16 obs)",739.6914,9.6063,27.1973,51.5870,51.5870,265.3157,0.2476,,7.1901
+03_chronos_original,8,Chronos t5-small,8,"same skip rule; seed=42",699.7073,9.5219,,,49.9213,,0.2515,,7.0503
