@@ -10,7 +10,7 @@
 > **One-sentence summary:** Can we predict how a company's **ESG score** will move in the future?
 > This project compares four forecasting approaches, from a very simple statistical model to a pretrained AI model, on **495 companies** and finds out which one is most accurate.
 
----
+--
 
 ## 1. The project in plain words
 
