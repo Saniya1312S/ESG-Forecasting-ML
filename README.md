@@ -197,4 +197,4 @@ More with examples in [`docs/METRICS_EXPLAINED.md`](docs/METRICS_EXPLAINED.md).
 
 MIT License, see [LICENSE](LICENSE). Citation info in [CITATION.cff](CITATION.cff).
 
-**Author:** [@Saniya1312S](https://github.com/Saniya1312S)
+
